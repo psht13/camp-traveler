@@ -5,8 +5,7 @@ const Hero = () => {
   return (
     <section
       className="max-container padding-container flex flex-col 
-      gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row"
-    >
+      gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row">
       <div className="hero-map" />
 
       {/* left */}
@@ -51,7 +50,11 @@ const Hero = () => {
         </div>
 
         <div className="flex flex-col w-full gap-3 sm:flex-row">
-          <Button type="button" title="Download App" variant="btn_green" />
+          <Button
+            type="button"
+            title="Download App"
+            variant="btn_green"
+          />
           <Button
             type="button"
             title="How it work?"
@@ -66,12 +69,16 @@ const Hero = () => {
       <div className="relative flex flex-1 items-start">
         <div
           className="relative z-20 w-[268px] flex flex-col 
-          gap-8 rounded-3xl bg-green-90 px-7 py-8"
-        >
+          gap-8 rounded-3xl bg-green-90 px-7 py-8">
           <div className="flex flex-col">
             <div className="flexBetween">
               <p className="regular-16 text-gray-20">Location</p>
-              <Image src="/close.svg" alt="close" width={24} height={24} />
+              <Image
+                src="/close.svg"
+                alt="close"
+                width={24}
+                height={24}
+              />
             </div>
 
             <p className="bold-20 text-white">Aguas Calientes</p>
